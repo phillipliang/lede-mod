@@ -1,0 +1,13 @@
+diff --git a/feeds.conf.default b/feeds.conf.default
+index 564b129e..2adf1bbe 100644
+--- a/feeds.conf.default
++++ b/feeds.conf.default
+@@ -1,5 +1,6 @@
+ src-git packages https://github.com/coolsnowwolf/packages
+-src-git luci https://github.com/coolsnowwolf/luci
++#src-git luci https://github.com/coolsnowwolf/luci
++src-git luci https://github.com/Lienol/openwrt-luci.git;dev-18.06
+ src-git routing https://git.openwrt.org/feed/routing.git;openwrt-19.07
+ #src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-19.07
+-#src-git helloworld https://github.com/fw876/helloworld
++src-git helloworld https://github.com/fw876/helloworld
