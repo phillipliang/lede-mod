@@ -1,8 +1,8 @@
 diff --git a/target/linux/armvirt/image/Makefile b/target/linux/armvirt/image/Makefile
-index 73d9145e..bc2f3a71 100644
+index 73d9145e..c5401cce 100644
 --- a/target/linux/armvirt/image/Makefile
 +++ b/target/linux/armvirt/image/Makefile
-@@ -25,4 +25,24 @@ define Image/Build
+@@ -25,4 +25,26 @@ define Image/Build
  		gzip -9n >$(BIN_DIR)/$(IMG_PREFIX)-root.$(1).gz
  endef
  
