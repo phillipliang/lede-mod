@@ -21,7 +21,7 @@ index 73d9145e..bc2f3a71 100644
 +	kmod-usb-storage kmod-usb-storage-extras kmod-usb-storage-uas \
 +	kmod-usb-net kmod-usb-net-asix kmod-usb-net-asix-ax88179 \
 +	kmod-usb-net-rtl8150 kmod-usb-net-rtl8152 \
-+	luci-app-samba4 luci-app-cifs-mount luci-app-dockerman \
++	luci-app-samba4 luci-app-cifs-mount luci-app-docker \
 +	luci-theme-bootstrap-mod
 +endef
 +ifeq ($(SUBTARGET),64)
